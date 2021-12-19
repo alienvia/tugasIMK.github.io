@@ -1,0 +1,142 @@
+@font-face {
+    font-family: 'Raleway-Bold';
+    src:  url('font/Raleway-Bold.ttf');
+}
+@font-face{
+    font-family: 'Lato-Light';
+    src:  url('font/Lato-Light.ttf');    
+}
+@font-face{
+    font-family: 'Junar-Outline';
+    src:  url('font/Junar-Outline.ttf');    
+}
+body{
+    margin:0;
+}
+header{
+    background-color: #508c64;
+    display:flex;
+    justify-content: space-between;
+    width: 100%;
+}
+h1{
+    font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:white;
+    margin-left: 5%;
+}
+.nav_link li{
+    display: inline-block;
+    padding: 10px;
+    margin-top: 15px;
+    margin-right: 30px;
+}
+a{
+    color:white;
+    font-size: 15px;
+}
+hr{
+    width: 90%;
+    text-align: center;
+    color: black;
+}
+.bahaya{
+    color: #206648;
+    font-size: 112px;
+    font-family: 'Raleway-Bold';
+    text-align: center;
+    margin-top: 25px;
+    text-shadow: 2px 0px;
+}
+.sampahorganik{
+    color: #206648;
+    font-size: 64px;
+    font-family: 'Junar-Outline';
+    text-align: center;
+    margin-top: -65px;
+}
+.memproduksi{
+    color: #206648;
+    font-size: 56px;
+    font-family: 'Raleway-Bold';
+    margin-left: 10%;
+    text-align: left;
+    margin-right: 10%;
+    text-shadow: 2px 2px;
+}
+.gasmetana{
+    color: #206648;
+    font-size: 56px;
+    font-family: 'Raleway-Bold';
+    margin-left: 20%;
+    text-align: right;
+    margin-top: -50px;
+    margin-bottom: -25px;
+    text-shadow: 2px 2px;
+}
+.paragraf1{
+    margin-left: 10%;
+    text-align: left;
+    line-height: 1.5;
+    font-family: 'Lato-Light';
+    color: black;
+    font-size: 24px;
+    font-weight: bold;
+}
+.content1 img {
+    margin-top: 10%;
+    margin-right: 10%;
+    width: 80%;
+    height: auto;
+}
+.content2 img {
+    margin-top: 10%;
+    margin-right: 0px;
+    margin-left: 10%;
+    width: 75%;
+    height: auto;
+}
+.penyakit{
+    color: #206648;
+    font-size: 56px;
+    font-family: 'Raleway-Bold';
+    text-align: left;
+    margin-right: 10%;
+    margin-bottom: -25px;
+    text-shadow: 2px 2px;
+}
+.paragraf2{
+    margin-right: 10%;
+    text-align: left;
+    line-height: 1.5;
+    font-family: 'Lato-Light';
+    color: black;
+    font-size: 24px;
+    font-weight: bold;
+}
+.globalwarming{
+    color: #206648;
+    font-size: 56px;
+    font-family: 'Raleway-Bold';
+    margin-left: 10%;
+    text-align: left;
+    margin-right: -5%;
+    margin-bottom: -25px;
+    text-shadow: 2px 2px;
+}
+.paragraf3{
+    margin-left: 10%;
+    margin-right: -5%;
+    text-align: left;
+    line-height: 1.5;
+    font-family: 'Lato-Light';
+    color: black;
+    font-size: 24px;
+    font-weight: bold;
+}
+.content3 img {
+    margin-top: 10%;
+    margin-right: 10%;
+    width: 70%;
+    height: auto;
+}
